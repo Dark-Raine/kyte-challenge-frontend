@@ -7,3 +7,10 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+// it('produces a valid date', () => {
+//   const date = "2019-04-08"
+//   const time = "15:15"
+//   const dateTime = new Date(date +"T"+ time + "Z")
+//   expect(convertToDateTime(date, time)).toBe(dateTime)
+// });
